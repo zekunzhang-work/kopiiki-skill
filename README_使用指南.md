@@ -12,10 +12,10 @@
 
 ```bash
 # 单个网站
-/visual-restore https://example.com
+/kopiiki-skill https://example.com
 
 # 多个网站
-/visual-restore https://site1.com https://site2.com --name my_collection
+/kopiiki-skill https://site1.com https://site2.com --name my_collection
 ```
 
 **安装步骤**：
@@ -31,10 +31,10 @@
 
 **使用方法**：
 1. 将本项目文件夹复制到你的工作目录
-2. Cursor 会自动发现 `.claude/skills/visual-restore/` 中的 skill
+2. Cursor 会自动发现 `.claude/skills/kopiiki-skill/` 中的 skill
 3. 在 Cursor 的 Agent 聊天中输入：
    ```bash
-   /visual-restore https://example.com
+   /kopiiki-skill https://example.com
    ```
 
 **查看已加载的 skills**：
@@ -96,7 +96,7 @@ AI 会逐步执行：
 
 ### 自动化工具（仅 Claude Code）
 
-- **.claude/skills/visual-restore/** - 自动化 skill
+- **.claude/skills/kopiiki-skill/** - 自动化 skill
 - **.claude/skills/webtwin/** - 网站提取 skill
 
 ### 资源提取工具

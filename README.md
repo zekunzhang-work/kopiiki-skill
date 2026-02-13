@@ -1,4 +1,4 @@
-# Visual Restore - AI 网站视觉还原工具
+# Kopiiki Skill - AI 网站视觉还原工具
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-blue)](https://claude.com/claude-code)
@@ -23,35 +23,35 @@
    - 打开 Cursor Settings（Mac: `Cmd+Shift+J`，Windows/Linux: `Ctrl+Shift+J`）
    - 前往 **Rules** 标签
    - 点击 **Add Rule** → **Remote Rule (Github)**
-   - 输入仓库 URL：`https://github.com/YOUR_USERNAME/visual-restore`
+   - 输入仓库 URL：`https://github.com/zekunzhang-work/kopiiki-skill`
    - 完成！
 
 2. **使用**：
    ```bash
-   /visual-restore https://example.com
+   /kopiiki-skill https://example.com
    ```
 
 ### 在 Claude Code 中使用
 
 1. **克隆仓库**：
    ```bash
-   git clone https://github.com/YOUR_USERNAME/visual-restore.git
-   cd visual-restore
+   git clone https://github.com/zekunzhang-work/kopiiki-skill.git
+   cd kopiiki-skill
    ```
 
 2. **使用**：
    ```bash
-   /visual-restore https://example.com
+   /kopiiki-skill https://example.com
    ```
 
 ## 📖 使用示例
 
 ```bash
 # 单个网站
-/visual-restore https://example.com
+/kopiiki-skill https://example.com
 
 # 多个网站，指定合集名称
-/visual-restore https://site1.com https://site2.com --name my_collection
+/kopiiki-skill https://site1.com https://site2.com --name my_collection
 ```
 
 ## 🎯 工作流程

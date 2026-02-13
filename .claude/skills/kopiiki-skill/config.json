@@ -1,5 +1,5 @@
 {
-  "name": "visual-restore",
+  "name": "kopiiki-skill",
   "description": "Automate website visual restoration: extract resources and convert to React + TypeScript projects",
   "version": "1.0.0",
   "parameters": {
@@ -20,11 +20,11 @@
   },
   "examples": [
     {
-      "command": "/visual-restore https://example.com",
+      "command": "/kopiiki-skill https://example.com",
       "description": "Extract and convert a single website"
     },
     {
-      "command": "/visual-restore https://example.com https://another-site.com --name my_websites",
+      "command": "/kopiiki-skill https://example.com https://another-site.com --name my_websites",
       "description": "Batch process multiple websites with custom collection name"
     }
   ]

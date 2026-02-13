@@ -1,10 +1,10 @@
 ---
-name: visual-restore
+name: kopiiki-skill
 description: 自动化执行网站视觉还原流程，将任何网站转换为像素级完美的 React + TypeScript 项目。在用户需要提取网站资源并转换为 React 项目时使用。
 license: MIT
 ---
 
-# Visual Restore - 网站视觉还原
+# Kopiiki Skill - 网站视觉还原
 
 自动化执行网站视觉还原流程，将任何网站转换为像素级完美的 React + TypeScript 项目。
 
@@ -16,7 +16,7 @@ license: MIT
 
 ## 使用方法
 
-在聊天中输入：`/visual-restore <url1> [url2] ... [--name <collection-name>]`
+在聊天中输入：`/kopiiki-skill <url1> [url2] ... [--name <collection-name>]`
 
 ## 工作流程
 
