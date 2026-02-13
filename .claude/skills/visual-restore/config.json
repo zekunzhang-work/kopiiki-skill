@@ -1,0 +1,31 @@
+{
+  "name": "visual-restore",
+  "description": "Automate website visual restoration: extract resources and convert to React + TypeScript projects",
+  "version": "1.0.0",
+  "parameters": {
+    "urls": {
+      "type": "array",
+      "description": "List of website URLs to extract and convert",
+      "required": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "collection_name": {
+      "type": "string",
+      "description": "Name for the collection folder",
+      "required": false,
+      "default": "collection_{{timestamp}}"
+    }
+  },
+  "examples": [
+    {
+      "command": "/visual-restore https://example.com",
+      "description": "Extract and convert a single website"
+    },
+    {
+      "command": "/visual-restore https://example.com https://another-site.com --name my_websites",
+      "description": "Batch process multiple websites with custom collection name"
+    }
+  ]
+}

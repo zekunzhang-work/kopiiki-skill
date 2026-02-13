@@ -1,0 +1,28 @@
+{
+  "name": "webtwin",
+  "description": "Extract complete website source code and assets",
+  "version": "1.0.0",
+  "parameters": {
+    "url": {
+      "type": "string",
+      "description": "The website URL to extract",
+      "required": true
+    },
+    "use_selenium": {
+      "type": "boolean",
+      "description": "Use Selenium for JavaScript-heavy sites",
+      "required": false,
+      "default": true
+    }
+  },
+  "examples": [
+    {
+      "command": "/webtwin https://example.com",
+      "description": "Extract a simple website"
+    },
+    {
+      "command": "/webtwin https://app.example.com --selenium",
+      "description": "Extract a JavaScript-heavy site with Selenium rendering"
+    }
+  ]
+}
